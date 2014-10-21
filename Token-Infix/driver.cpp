@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
   char userInput[80];
-    cout << "2 + 3 = " << evaluate("2 + 3") << endl;
+    cout << "2 + 3 = " << evaluate("2 + 3 ") << endl;
     cout << "previous  * 4 = " << evaluate(" * 4 ") << endl;
     cout << "(2+13) * 4 = " << evaluate("(2+13) * 4") << endl;
     cout << endl << "Try one yourself:  ";

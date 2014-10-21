@@ -51,7 +51,7 @@ int evaluate(const char str[])
       l.start();
     }
 
-  
+  cout << l << endl;
   ans = doSum(l);          // Here begins the math
   
   return ans;

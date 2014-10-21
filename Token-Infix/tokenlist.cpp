@@ -55,9 +55,11 @@ TokenList::TokenList(const char str[])
       else
 	tok = Token(str[pos]); // If str[pos] is not an integer, make an operator node
 
-      push_back(tok); // Put the token at the end of the list
-      pos++; // check the next character in str
- 
+      if(str[pos] != 0)
+	{
+	  push_back(tok); // Put the token at the end of the list
+	  pos++; // check the next character in str
+	}
     }  
 }
 
